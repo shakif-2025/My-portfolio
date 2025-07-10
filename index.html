@@ -15,9 +15,9 @@
   </head>
   <body class="open-sans-normal">
     <!-- Header starts here -->
-    <header class="header">
+    <header class="header secondary-bg">
       <!-- navbar starts here -->
-      <nav class="secondary-bg">
+      <nav>
         <h2 class="nav-title">Sha<span class="text-primary">k</span>if</h2>
 
         <ul>
@@ -31,7 +31,7 @@
       <!-- navbar ends here -->
 
       <!-- banner starts here -->
-      <div class="banner secondary-bg">
+      <div class="banner">
         <div class="banner-content">
           <h4 class="banner-greetings dark-2">Hi, I am</h4>
           <h1 class="banner-title">Mary Hardy</h1>
@@ -43,15 +43,15 @@
           <button class="btn-primary">Download CV</button>
           <button class="btn-primary">Contact</button>
         </div>
-        <img src="../images/Hardy.png" alt="" />
+        <img class="banner-profile-pic" src="../images/Hardy.png" alt="" />
       </div>
       <!-- banner ends here -->
     </header>
     <!-- Header ends here -->
 
     <!-- Main starts here -->
-    <main class="secondary-bg">
-      <section class="about">
+    <main>
+      <section class="about text-center secondary-bg">
         <h3 class="section-title">About Me</h3>
         <p class="section-description">
           I, m a designer & developer with a passion for web design. I enjoy
@@ -62,7 +62,78 @@
           and budget which meets <br />
           clients requirements in our mata.
         </p>
+        <div class="about-items">
+          <!-- .about-item*4>p.item-title+p.item-description -->
+          <div class="about-item">
+            <p class="item-title">Name</p>
+            <p class="item-description">Marry Hardy</p>
+          </div>
+          <div class="about-item">
+            <p class="item-title">Email</p>
+            <p class="item-description">abc@wef.com</p>
+          </div>
+          <div class="about-item">
+            <p class="item-title">Date of Birth</p>
+            <p class="item-description">15th dec 2023</p>
+          </div>
+          <div class="about-item">
+            <p class="item-title">From</p>
+            <p class="item-description">Dhaka, BD</p>
+          </div>
+        </div>
       </section>
+
+      <!-- What i do section start here -->
+      <section class="skills">
+        <h3 class="section-title text-center">What I do</h3>
+        <p class="section-description text-center">
+          I have more than 10 years experience building software for clients all
+          over the world. Below is a quick overview of my main technical skill
+          sets and technologies i use. Want to find out more about my
+          experience? Check out my online resume and project portfolio.
+        </p>
+
+        <div class="skill-container">
+          <!-- .skill*4>img+h4.skill-title+p.skill-description  -->
+          <div class="skill">
+            <img src="images/icons/js.png" alt="" />
+            <h4 class="skill-title">Vanilla JavaScript</h4>
+            <p class="skill-description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/react.png" alt="" />
+            <h4 class="skill-title">React</h4>
+            <p class="skill-description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/nodejs.png" alt="" />
+            <h4 class="skill-title">Node.js</h4>
+            <p class="skill-description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/mongo.png" alt="" />
+            <h4 class="skill-title">MongoDB</h4>
+            <p class="skill-description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- What i do section end here -->
     </main>
     <!-- Main ends here -->
   </body>
